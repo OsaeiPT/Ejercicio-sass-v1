@@ -4,18 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Prueba Sass</title>
+  <title>Un Mundo De Imagenes Sass</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="fotografo-app.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-light fixed-top">
-    <div class="container"><img class="img-fluid logo_peru" src="img/peru.png" alt="Bandera Perú">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
+    <div class="container"><h1 class="d-none">Sigfrid-Studio</h1>
+<img src="img-f/logo.png" class="img-fluid img-logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
+        <div class="raya"></div>
+        <div class="raya"></div>
+        <div class="raya"></div>
+      </button>
       <div class="collapse navbar-collapse" id="navbarcollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#home-section">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="fotografo-index.html">Inicio</a></li>
+          <li class="nav-item"></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Galerias</a>
+            <div class="dropdown-menu font"><a class="dropdown-item" href="bodas.html">Bodas</a><a class="dropdown-item" href="paisajes.html">Paisajes</a><a class="dropdown-item" href="caras-mujeres.html">Mujeres</a><a class="dropdown-item" href="caras-hombres.html">Hombres</a></div>
+          </li>
+          <li><a class="nav-link" href="#home-section">Sobre Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="#info-section">Servicios</a></li>
           <li class="nav-item"><a class="nav-link" href="#info-contact">Contactanos</a></li>
         </ul>

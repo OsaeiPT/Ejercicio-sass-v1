@@ -4,22 +4,33 @@ head
   meta(charset="UTF-8")
   meta(name="viewport" content="width=device-width, initial-scale=1.0")
   meta(http-equiv="X-UA-Compatible" content="ie=edge")
-  title Prueba Sass
+  title Un Mundo De Imagenes Sass
   link(rel="stylesheet", href="css/bootstrap.min.css")
-  link(rel="stylesheet", href="app.css")
+  link(rel="stylesheet", href="fotografo-app.css")
 
 body
 
   nav.navbar.navbar-expand-sm.bg-dark.navbar-light.fixed-top
     .container
-      img.img-fluid.logo_peru(src="img/peru.png", alt="Bandera Perú")
+      <h1 class="d-none">Sigfrid-Studio</h1>
+      <img src="img-f/logo.png" class="img-fluid img-logo">
       button(type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse")
-        span.navbar-toggler-icon
+        .raya
+        .raya
+        .raya
       .collapse.navbar-collapse(id="navbarcollapse")
         ul.navbar-nav.ml-auto
           li.nav-item
-            a.nav-link(href="index.html") Inicio
+            a.nav-link(href="fotografo-index.html") Inicio
           li.nav-item
+          li.nav-item.dropdown
+            a.nav-link.dropdown-toggle(href="#" data-toggle="dropdown") Galerias
+            .dropdown-menu.font
+              a.dropdown-item(href="bodas.html") Bodas
+              a.dropdown-item(href="paisajes.html") Paisajes
+              a.dropdown-item(href="caras-mujeres.html") Mujeres
+              a.dropdown-item(href="caras-hombres.html") Hombres
+          li
             a.nav-link(href="#home-section") Sobre Nosotros
           li.nav-item
             a.nav-link(href="#info-section") Servicios
@@ -77,7 +88,6 @@ body
           p.text-center.lead.text-info &copy; Copyright Viacoder. All Rights Reserver 2019.
 
         
-
 
 
 
