@@ -30,37 +30,37 @@ body
               a.dropdown-item(href="paisajes.html") Paisajes
               a.dropdown-item(href="caras-mujeres.html") Mujeres
               a.dropdown-item(href="caras-hombres.html") Hombres
-          li
-            a.nav-link(href="#home-section") Sobre Nosotros
-          li.nav-item
-            a.nav-link(href="#info-section") Servicios
           li.nav-item
             a.nav-link(href="#info-contact") Contactanos
 
   header(id="home-section")
-    .dark-overlay
-      .home-inner
-        .container
-          .row
-            .col-md-12
-              h1.title_principal Bienvenidos a La Prueba Usando Sass
-              h2.sub_title_principal Ojala Salga Bien Esta Prueba.
-
-  section.info-section.bg-info.color-secondary.py-5(id="info-section")
     .container
       .row
-        .col-md-6
-          h3.section_title Hola
-          h4.section_sub_title Tiene Que Salir Bien Por Que Es Importante
-          p.span-parrafo-segundo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium est quibusdam accusamus quidem illo optio sit adipisci dolorem. Cumque perspiciatis corporis dolor accusamus veniam ratione porro amet natus quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium est quibusdam accusamus quidem illo optio sit adipisci dolorem. Cumque perspiciatis corporis dolor accusamus veniam ratione porro amet natus quos!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium est quibusdam accusamus quidem illo optio sit adipisci dolorem. Cumque perspiciatis corporis dolor accusamus veniam ratione porro amet natus quos!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed praesentium est quibusdam accusamus quidem illo optio sit adipisci dolorem. Cumque perspiciatis corporis dolor accusamus veniam ratione porro amet natus quos!
-            sit amet consectetur adipisicing elit. Sed praesentium est quibusdam accusamus quidem illo optio sit adipisci dolorem. Cumque perspiciatis corporis dolor accusamus veniam ratione porro amet natus quos!
-            
+        .col-md-12
+          h1.title_principal.text-capitalize.text-info.text-center.top-100px
+          h2.display-3.top-titulo-principal.text-info.font-size el mejor en fotos personalizadas
+          p.parrafo-top Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aspernatur reiciendis vero quidem autem.
+           Reprehenderit dolorum fugit est dolores cumque similique aut, molestias corrupti consequatur mollitia veritatis, ratione voluptas. Minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis animi eius aspernatur laborum eveniet, excepturi tempora consequatur amet officiis exercitationem. Architecto sapiente porro eveniet quasi? Doloremque ipsam reiciendis commodi assumenda?
+  section.info-section.py-5(id="info-section")
+    .container
+      .row.bottom
+        .col-md-12.text-danger
+          h3.display-4.top-subtitulo Galeria
+          h4.display-5.top-subtitulo-principal Bodas
           
-        .col-md-6
-          img.img-fluid.img-via(src="img/mujer-sentada.jpg", alt="Via Desde Arriba")
+        .col-md-6.d-flex.background-file
 
+          img.img-fluid.height-330.left-70.img-thumbnail(src="img-f/boda/boda5.jpeg", alt="Via Desde Arriba")
+
+          p.left-parrafo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam repellat ipsum beatae quam a modi officiis voluptas odit corporis, exercitationem eius error temporibus tenetur expedita sunt. Qui soluta ipsa quidem?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque impedit laudantium optio itaque magni, ex quia blanditiis molestias harum officiis aliquid cupiditate praesentium nisi recusandae odio ullam officia in?
+        
+        .col-md-6.d-flex.background-file
+
+          img.img-fluid.height-330.left-71.img-thumbnail(src="img-f/boda/boda7.jpeg", alt="Via Desde Arriba")
+
+          P.left-parrafo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nesciunt dignissimos deserunt consequuntur quia incidunt sit, illum ut similique rem architecto ad excepturi consequatur reiciendis quo cumque nobis quae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe recusandae libero, sit natus deserunt deleniti rem. Beatae, blanditiis? Adipisci corporis debitis, dolores nisi incidunt quia quod tempora dolorem voluptatum neque.
   section.info-section.bg-danger.text-white(id="info-contact")
     .container
       .row
